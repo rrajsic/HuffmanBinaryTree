@@ -24,7 +24,7 @@ std::array<int, 26> fillArray(string filename)
 	txtfile.close();
 	return lettercounter;
 }
-int getWordCount(string filename)
+int getLetterCount(string filename)
 {
 	ifstream txtfile;
 	txtfile.open(filename, ios::in);
