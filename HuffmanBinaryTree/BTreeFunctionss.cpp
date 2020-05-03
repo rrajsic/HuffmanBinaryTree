@@ -16,14 +16,15 @@ BTreeLL* addBTElement(BTreeLL* head, BTreeLL* new_node)
 	}
 	return head;
 }
+
 void addSumOfLastElementsToBTLL(LL** LLhead, BTreeLL** BThead)
 {
 	if ((*LLhead)->next == NULL)return;					//escape function
 
 	int ultimate = peek(*LLhead);						//last element in list (smallest element)
-	if ((*LLhead) != NULL)removeLastElement(LLhead);
+	removeLastElement(LLhead);
 	int penultimate = peek(*LLhead);					//one element before last element (second smallest element)
-	if ((*LLhead) != NULL)removeLastElement(LLhead);
+	removeLastElement(LLhead);
 
 	int sum = ultimate + penultimate;
 	(*LLhead) = addToEnd(LLhead, sum);					//add new element to the list (sum)
@@ -62,6 +63,7 @@ void addSumOfLastElementsToBTLL(LL** LLhead, BTreeLL** BThead)
 
 	addSumOfLastElementsToBTLL(LLhead, BThead);			//recursion
 }
+
 BTreeLL* findNode(BTreeLL* bthead, int x)
 {
 	BTreeLL* t = bthead;

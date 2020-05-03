@@ -11,9 +11,6 @@ int main()
 	std::string filename = "words.txt";
 	std::array<int, 26>letters = { 0 };
 	letters = fillArray(filename);									//this counts instances of every letter from a word file
-	int wordcount;
-	wordcount = getWordCount(filename);
-	std::cout << "Word count: " << wordcount << std::endl;
 	std::cout << "Letter count: " << getSumfromArray(letters)<<std::endl;
 
 	struct LL* LLarray = makeList(26);
