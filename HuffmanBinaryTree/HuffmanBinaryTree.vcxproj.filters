@@ -21,7 +21,10 @@
     <ClCompile Include="LLBasicFunctions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BTreeFunctions.cpp">
+    <ClCompile Include="BTreeFunctionss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WordStatistics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -30,6 +33,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BTreeFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WordStatistics.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

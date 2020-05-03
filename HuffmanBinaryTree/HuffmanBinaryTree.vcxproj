@@ -123,13 +123,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BTreeFunctions.cpp" />
+    <ClCompile Include="BTreeFunctionss.cpp" />
     <ClCompile Include="LLBasicFunctions.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="WordStatistics.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BTreeFunctions.h" />
     <ClInclude Include="LLBasicFunctions.h" />
+    <ClInclude Include="WordStatistics.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
