@@ -4,12 +4,12 @@ struct LL
 {
 	int x;
 	char a;
-	double probability;
+	long double probability;
 	struct LL* next;
 };
 LL* makeList(int n);
 void printList(LL* head);
-void addToEnd(LL** head, int x);
+LL* addToEnd(LL** head, int x);
 LL* addToStart(int x);
 void insertNodeinSorted(LL** head, int x);
 void removeLastElement(LL** head);

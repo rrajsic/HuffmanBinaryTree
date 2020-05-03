@@ -37,14 +37,24 @@ void printList(LL* head)
 	}
 	std::cout << std::endl;
 }
-void addToEnd(LL** head, int x)
+LL* addToEnd(LL** head, int x)
 {
-	LL* t = (*head);
-	while (t->next != NULL)t = t->next;
-	t->next = new LL;
-	t = t->next;
-	t->x = x;
-	t->next = NULL;
+	if ((*head) == NULL)
+	{
+		LL* head = new LL;
+		head->x = x;
+		head->next = NULL;
+		return head;
+	}
+	else {
+		LL* t = (*head);
+		while (t->next != NULL)t = t->next;
+		t->next = new LL;
+		t = t->next;
+		t->x = x;
+		t->next = NULL;
+		return (*head);
+	}
 }
 LL* addToStart(int x)
 {
