@@ -25,6 +25,13 @@ int main()
 	std::cout << "Binary tree preorder: \n";
 	BTarray = findLast(BTarray);									//last one is root
 	preOrder(BTarray->node);										//print the huffman tree, left "branch" is 1 and right "branch" is 0
+
+	struct LL* lettArray = makeList(26);
+	fillListFromArray(lettArray, letters, getSumfromArray(letters));
+	printList(lettArray);
+	fillBTreewithChar(BTarray->node, lettArray);
+
+	printNodes(BTarray->node,"");
 }
 
 

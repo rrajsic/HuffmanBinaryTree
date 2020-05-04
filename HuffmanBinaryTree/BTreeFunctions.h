@@ -3,6 +3,7 @@
 struct BTree
 {
 	int x;
+	char a;
 	struct BTree* left, * right;
 };
 struct BTreeLL
@@ -16,8 +17,9 @@ void addSumOfLastElementsToBTLL(LL** head, BTreeLL** bthead);
 BTreeLL* findNode(BTreeLL* bthead, int x);
 void printBTLL(BTreeLL* bthead);
 void preOrder(struct BTree* root);
+void fillBTreewithChar(struct BTree* root, struct LL* t);
 BTreeLL* findLast(BTreeLL* head);
-void printNode(BTreeLL* head);
+void printNodes(BTree* head, const char* code);
 void deleteNode(struct BTreeLL** head_ref, int key);
 
 #endif

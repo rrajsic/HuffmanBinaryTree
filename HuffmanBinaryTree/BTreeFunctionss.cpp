@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include"LLBasicFunctions.h"
 #include "BTreeFunctions.h"
@@ -92,6 +93,24 @@ void preOrder(struct BTree* root) {
 		preOrder(root->right);
 	}
 }
+
+void fillBTreewithChar(struct BTree* root,struct LL*t)
+{
+	if (root == NULL)
+	{
+		return;
+	}
+	if (root->x == t->x) {
+		root->a = t->a;
+		t = t->next;
+	}
+
+		
+			fillBTreewithChar(root->left,t);
+			fillBTreewithChar(root->right, t);
+
+	
+}
 BTreeLL* findLast(BTreeLL* head)
 {
 	BTreeLL* t = head;
@@ -99,13 +118,18 @@ BTreeLL* findLast(BTreeLL* head)
 		t = t->next;
 	return t;
 }
-void printNode(BTreeLL* head)
+void printNodes(BTree* head,const char *code)
 {
-	BTreeLL* t = head;
-	BTree* as = t->node;
-	std::cout << "t=" << as->x << "\n";
-	std::cout << "t->left=" << as->left->x << "\n";
-	std::cout << "t->right=" << as->right->x << "\n";
+	char totalcode[26];
+	if (head->left == NULL && head->right == NULL)
+		std::cout << head->a << ": " << code<<std::endl;
+	else
+	{
+		strcpy_s(totalcode, code);
+		printNodes(head->left, strcat(totalcode,"1"));
+		strcpy_s(totalcode, code);
+		printNodes(head->right, strcat(totalcode,"0"));
+	}
 }
 
 void deleteNode(struct BTreeLL** head_ref, int key)
