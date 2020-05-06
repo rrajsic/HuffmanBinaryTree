@@ -104,10 +104,8 @@ void fillBTreewithChar(struct BTree* root,struct LL*t)
 		root->a = t->a;
 		t = t->next;
 	}
-
-		
-			fillBTreewithChar(root->left,t);
-			fillBTreewithChar(root->right, t);
+	fillBTreewithChar(root->left,t);
+    fillBTreewithChar(root->right, t);
 
 	
 }
