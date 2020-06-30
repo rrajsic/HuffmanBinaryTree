@@ -94,18 +94,22 @@ void preOrder(struct BTree* root) {
 	}
 }
 
-void fillBTreewithChar(struct BTree* root,struct LL*t)
+void fillBTreewithChar(struct BTree* root,LL*head)
 {
 	if (root == NULL)
 	{
 		return;
 	}
-	if (root->x == t->x) {
-		root->a = t->a;
+	LL* t = head;
+	while (t != NULL)
+	{
+		if (root->x == t->x) {
+			root->a = t->a;
+		}
 		t = t->next;
 	}
-	fillBTreewithChar(root->left,t);
-    fillBTreewithChar(root->right, t);
+	fillBTreewithChar(root->left,head);
+    fillBTreewithChar(root->right,head);
 
 	
 }
