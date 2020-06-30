@@ -14,17 +14,25 @@ int main()
 	std::cout << "Letter count: " << getSumfromArray(letters)<<std::endl;
 
 	struct LL* LLarray = makeList(26);
+	
+
 	struct BTreeLL* BTarray = NULL;									//make 2 arrays, 1 for each letter and the other one for binary tree nodes.
 
 	fillListFromArray(LLarray, letters, getSumfromArray(letters));  //this copies number of each letter in the array
 	insertionSortDesc(&LLarray);									//sort by probability
-	printList(LLarray);
 
-	addSumOfLastElementsToBTLL(&LLarray, &BTarray);					//main algorithm
 
-	std::cout << "Binary tree preorder: \n";
+	addSumOfLastElementsToBTLL(&LLarray,&BTarray);					//main algorithm
+
+	
 	BTarray = findLast(BTarray);									//last one is root
-	preOrder(BTarray->node);										//print the huffman tree, left "branch" is 1 and right "branch" is 0
+
+	struct LL* lettArray = makeList(26);
+	fillListFromArray(lettArray, letters, getSumfromArray(letters));
+	printList(lettArray);
+	fillBTreewithChar(BTarray->node,lettArray);
+
+	printNodes(BTarray->node,"");
 }
 
 

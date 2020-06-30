@@ -80,7 +80,6 @@ int peek(LL* head)
 }
 
 
-
 void insertionSortDesc(struct LL** head)
 {
 	struct LL* sorted = NULL;
