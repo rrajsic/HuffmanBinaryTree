@@ -1,7 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
-#include"LLBasicFunctions.h"
+#include "LLBasicFunctions.h"
 #include "BTreeFunctions.h"
+#include <cstring>
 BTreeLL* addBTElement(BTreeLL* head, BTreeLL* new_node)
 {
 	BTreeLL* t = head;

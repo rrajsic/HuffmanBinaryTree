@@ -1,0 +1,31 @@
+# ninja log v6
+11	403	7538273787951707	CMakeFiles/HuffmanBinaryTree.dir/app_icon.rc.obj	4c4d1ce88875ec7d
+405	512	7538273791851704	C:/Users/zrajrob/OneDrive - Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree.exe	e6c9f01192ad20f4
+26	2432	7538274283584920	CMakeFiles/HuffmanBinaryTree.dir/C_/Users/zrajrob/OneDrive_-_Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree/LLBasicFunctions.cpp.obj	9a040eb00ba6a35c
+44	2514	7538274283734432	CMakeFiles/HuffmanBinaryTree.dir/C_/Users/zrajrob/OneDrive_-_Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree/WordStatistics.cpp.obj	b634706b47e9c8c2
+60	2605	7538274283884399	CMakeFiles/HuffmanBinaryTree.dir/C_/Users/zrajrob/OneDrive_-_Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree/source.cpp.obj	987fb57e58b12e82
+28	996	7538275015455186	CMakeFiles/HuffmanBinaryTree.dir/C_/Users/zrajrob/OneDrive_-_Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree/BTreeFunctionss.cpp.obj	e1292a0a9301ae7
+997	1654	7538275025275964	C:/Users/zrajrob/OneDrive - Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree.exe	5516f1e25f72142
+29	853	7538275929810685	CMakeFiles/HuffmanBinaryTree.dir/C_/Users/zrajrob/OneDrive_-_Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree/BTreeFunctionss.cpp.obj	e1292a0a9301ae7
+854	1743	7538275938078296	C:/Users/zrajrob/OneDrive - Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree.exe	5516f1e25f72142
+43	1006	7538277550779572	CMakeFiles/HuffmanBinaryTree.dir/C_/Users/zrajrob/OneDrive_-_Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree/source.cpp.obj	987fb57e58b12e82
+1008	1860	7538277560484773	C:/Users/zrajrob/OneDrive - Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree.exe	5516f1e25f72142
+38	1550	7538278675229412	CMakeFiles/HuffmanBinaryTree.dir/C_/Users/zrajrob/OneDrive_-_Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree/source.cpp.obj	987fb57e58b12e82
+1551	2198	7538278690432247	C:/Users/zrajrob/OneDrive - Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree.exe	5516f1e25f72142
+39	1067	7538280133057034	CMakeFiles/HuffmanBinaryTree.dir/C_/Users/zrajrob/OneDrive_-_Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree/source.cpp.obj	987fb57e58b12e82
+1068	1861	7538280143346291	C:/Users/zrajrob/OneDrive - Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree.exe	5516f1e25f72142
+32	1070	7538281354332975	CMakeFiles/HuffmanBinaryTree.dir/C_/Users/zrajrob/OneDrive_-_Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree/LLBasicFunctions.cpp.obj	9a040eb00ba6a35c
+53	1407	7538281354632882	CMakeFiles/HuffmanBinaryTree.dir/C_/Users/zrajrob/OneDrive_-_Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree/source.cpp.obj	987fb57e58b12e82
+1407	2083	7538281368177775	C:/Users/zrajrob/OneDrive - Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree.exe	5516f1e25f72142
+12	917	7538282322710255	CMakeFiles/HuffmanBinaryTree.dir/C_/Users/zrajrob/OneDrive_-_Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree/LLBasicFunctions.cpp.obj	9a040eb00ba6a35c
+919	1776	7538282331816190	C:/Users/zrajrob/OneDrive - Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree.exe	5516f1e25f72142
+31	1631	7538283839131349	CMakeFiles/HuffmanBinaryTree.dir/C_/Users/zrajrob/OneDrive_-_Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree/BTreeFunctionss.cpp.obj	e1292a0a9301ae7
+51	1704	7538283839431318	CMakeFiles/HuffmanBinaryTree.dir/C_/Users/zrajrob/OneDrive_-_Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree/LLBasicFunctions.cpp.obj	9a040eb00ba6a35c
+68	1954	7538283839581355	CMakeFiles/HuffmanBinaryTree.dir/C_/Users/zrajrob/OneDrive_-_Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree/source.cpp.obj	987fb57e58b12e82
+1954	4431	7538283858456158	C:/Users/zrajrob/OneDrive - Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree.exe	5516f1e25f72142
+11	1656	7538285068523059	CMakeFiles/HuffmanBinaryTree.dir/C_/Users/zrajrob/OneDrive_-_Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree/BTreeFunctionss.cpp.obj	e1292a0a9301ae7
+30	1683	7538285068673049	CMakeFiles/HuffmanBinaryTree.dir/C_/Users/zrajrob/OneDrive_-_Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree/LLBasicFunctions.cpp.obj	9a040eb00ba6a35c
+47	1905	7538285068823071	CMakeFiles/HuffmanBinaryTree.dir/C_/Users/zrajrob/OneDrive_-_Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree/source.cpp.obj	987fb57e58b12e82
+1905	2538	7538285087504485	C:/Users/zrajrob/OneDrive - Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree.exe	5516f1e25f72142
+46	943	7538285311849832	CMakeFiles/HuffmanBinaryTree.dir/C_/Users/zrajrob/OneDrive_-_Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree/LLBasicFunctions.cpp.obj	9a040eb00ba6a35c
+945	1660	7538285320859080	C:/Users/zrajrob/OneDrive - Ericsson/Documents/HuffmanBinaryTree/HuffmanBinaryTree/HuffmanBinaryTree.exe	5516f1e25f72142

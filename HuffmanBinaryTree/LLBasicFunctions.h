@@ -2,7 +2,7 @@
 #define LLBASIC_H
 struct LL
 {
-	int x;
+	long int x;
 	char a;
 	long double probability;
 	struct LL* next;
@@ -17,7 +17,7 @@ int peek(LL* head);
 void insertionSortDesc(struct LL** head);
 void sortedInsertDesc(struct LL** head, struct LL* new_node);
 
-void fillListFromArray(LL* head, std::array<int, 26>arr, double maxProbability);
+void fillListFromArray(LL* head, std::array<int, 26>arr, int maxProbability);
 
 
 #endif

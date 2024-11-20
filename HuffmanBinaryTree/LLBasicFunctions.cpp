@@ -32,7 +32,7 @@ void printList(LL* head)
 	LL* t = head;
 	while (t != NULL)
 	{
-		std::cout << t->a<<": "<<t->x << " -> "<<t->probability<<"\n";
+		std::cout << t->a<<": "<<t->x << " -> "<<(t->probability)*100<<"%\n";
 		t = t->next;
 	}
 	std::cout << std::endl;
@@ -115,14 +115,14 @@ void sortedInsertDesc(struct LL** head, struct LL* new_node)
 	}
 }
 
-void fillListFromArray(LL* head, std::array<int, 26>arr,double maxProbability)
+void fillListFromArray(LL* head, std::array<int, 26>arr, int maxProbability)
 {
 	int counter(0);
 	
 	LL* t = head;
 	while (t ->next!= NULL) {
 		t->x = arr[counter];
-		t->probability = static_cast<double>(t->x) / maxProbability;
+		t->probability = static_cast<long double>(t->x) / maxProbability;
 		counter++;
 		t = t->next;
 	}
