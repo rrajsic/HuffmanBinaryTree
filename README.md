@@ -7,5 +7,14 @@ Huffman binary tree for coding english alphabet based on each letter statistical
 [^1]: [Huffman coding](https://en.wikipedia.org/wiki/Huffman_coding)
 
 ## How it works
-Currently each letter needs to be coded manually as shown is "Tree.png"
+Program uses a big input of words and calculates a probability of each character, then it uses that probability to create compression encriyption code for each letter of the alphabet.
+The whole alphabet tree is shown in "Tree.png"
 Huffman's alghorithm is tested in MATLab and proof of working properly is in "Proof of work"
+
+Images
+## Console output
+![console_output](https://github.com/user-attachments/assets/e70983e9-100e-4236-88a4-306c5c21466a)
+
+## Calculated bianry tree (Tree.png)
+![Tree](https://github.com/user-attachments/assets/2addbe2b-2177-4822-b6bf-c59adff597eb)
+
