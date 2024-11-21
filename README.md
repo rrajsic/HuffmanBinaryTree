@@ -7,9 +7,11 @@ Huffman binary tree for coding english alphabet based on each letter statistical
 [^1]: [Huffman coding](https://en.wikipedia.org/wiki/Huffman_coding)
 
 ## How it works
-Program uses a big input of words and calculates a probability of each character, then it uses that probability to create compression encriyption code for each letter of the alphabet.
+Program uses a big input of words from file `words.txt` and calculates a probability of each character, then it uses that probability to create compression encriyption code for each letter of the alphabet.
 The whole alphabet tree is shown in "Tree.png"
 Huffman's alghorithm is tested in MATLab and proof of working properly is in "Proof of work"
+
+> For developing/debugging build project with cmake for the C++ engine (in build/) `cmake .` and `cmake --build .`
 
 Images
 ## Console output
